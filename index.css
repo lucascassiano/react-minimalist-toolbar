@@ -1,0 +1,78 @@
+:root {
+    --main-color: #000;
+    --main-color-high:#222;
+    --text-color:#a0a0a0;
+    --text-hover: #fff;
+  }
+
+.top-bar{
+    overflow-y: visible;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: var(--main-color);
+    font-size: 10pt;
+}
+
+li {
+    float: left;
+    color: var(--text-color);
+}
+
+li a{
+    display: block;
+    color: var(--text-color);
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: left;
+}
+
+li a:hover{
+    color:var(--text-hover);
+    text-decoration: none;
+    font-weight: 200;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    cursor:default;
+    clear:both 
+}
+
+/*dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: var(--text-color);
+    overflow: visible;
+}
+
+.dropdown:hover,.dropdown-content:hover{
+    background: var(--main-color)
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 100px;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display:inline-block;
+    white-space: nowrap;
+   
+}
+
+.dropdown-content a:hover{
+    color:var(--text-hover);
+}
+
