@@ -1,5 +1,6 @@
 # react-minimalist-toolbar
 A Minimalist toolbar react component
+![Image of toolbar](https://raw.githubusercontent.com/lucascassiano/react-minimalist-toolbar/master/doc/example.png)
 
 ## Install
 ```
