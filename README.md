@@ -8,13 +8,16 @@ npm install --save react-minimalist-toolbar
 
 ## Example
 ```
-import MinimalistToolbar from 'MinimalistToolbar'
+import Toolbar from 'react-minimalist-toolbar'
 
 ...
 
 newFile(){
     //open new file here
 }
+//implement all callback functions
+
+...
 
 render() {
     
@@ -49,7 +52,8 @@ render() {
         
 
         return (
-            <MinimalistToolbar menu = {menu} />
+             <Toolbar menu={menu} logo={logo} brand="React-Minimalist-Toolbar"></Toolbar>
+
 
         );
         

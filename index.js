@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './index.css';
+import './Toolbar.css';
 
-class MenuItem extends Component {
+
+class ToolbarItem extends Component {
 
   render() {
     if (this.props.item) {
@@ -36,81 +37,56 @@ class MenuItem extends Component {
   }
 }
 
-export default class MinimalistToolbar extends Component {
+class Toolbar extends Component {
   constructor(props) {
     super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
   }
 
+  handleClick(e) {
+    e.preventDefault();
+    console.log("Single Click");
 
-  /* var menu = {
-      model: {
-        text: "Model",
-        items: [
-          {
-            text: "New",
-            callback: this.handleClick
-          },
-          {
-            text: "Open",
-            callback: this.handleClick
-          },
-          {
-            text: "Import",
-            callback: this.handleClick
-          },
-          {
-            text: "Export",
-            callback: this.handleClick
-          }
-        ]
-      },
-      edit: {
-        text: "Edit",
-        items: [
-          {
-            text: "Undo",
-            callback: this.handleClick
-          },
-          {
-            text: "Redo",
-            callback: this.handleClick
-          }
-        ]
-      },
-      view: {
-        text: "View ",
-        items: [
-          {
-            text: "Objects",
-            callback: this.handleClick
-          },
-          {
-            text: "Time Bar",
-            callback: this.handleClick
-          },
-          {
-            text: "HDR Environemnt",
-            callback: this.handleClick
-          }
-        ]
-      }
-    }*/
+  }
+
   render() {
-    const { menu } = this.props;
-    const menuItems = menu.map((item, index) =>
-      <MenuItem
-        key={index}
-        text={item.text}
-        items={item.items}
-        callback={item.callback}
-      />
+    var menu, items;
+
+    if (this.props.menu) {
+      menu = this.props.menu;
+      items = menu.map((item, index) =>
+      <ToolbarItem text={item.text} items={item.items} callback={this.handleClick} />
     );
+    }
+
+    const { brand } = this.props;
+    var logo;
+    if (this.props.logo) {
+      logo = (
+        <img src={this.props.logo} className="logo"></img>
+      );
+    }
+    
+    
+
     return (
-      <div className="top-bar">
+      <div className="toolbar">
         <ul>
-          {menuItems}
+          <li className="brand"><a>{logo}{brand}</a></li>
+          {items}
         </ul>
       </div>
     );
   }
 }
+
+export default Toolbar;
