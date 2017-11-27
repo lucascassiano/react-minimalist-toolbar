@@ -1,0 +1,25 @@
+
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#36CEF9" offset="0%"></stop>
+            <stop stop-color="#279DF4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-189.000000, -321.000000)">
+            <g id="Group-3" transform="translate(190.000000, 321.000000)">
+                <g id="App-Icon-60-x-60" transform="translate(0.000000, 1.000000)" fill="url(#linearGradient-1)">
+                    <rect id="App-Icon" x="0" y="0" width="60" height="60" rx="13.5"></rect>
+                </g>
+                <circle id="Oval-2" stroke="#FFFFFF" fill-opacity="0.05" fill="#FFFFFF" cx="30" cy="31" r="23"></circle>
+                <path d="M30.5,0.5 L30.5,60.531738" id="Line-4" stroke="#FFFFFF" opacity="0.755321558" stroke-linecap="square"></path>
+                <path d="M60.5,30.5 L0.468261963,30.5" id="Line-4" stroke="#FFFFFF" opacity="0.755321558" stroke-linecap="square"></path>
+                <path d="M51.7132034,9.28679656 L9.26435438,51.7356456" id="Line-4" stroke="#FFFFFF" opacity="0.612488678" stroke-linecap="square"></path>
+                <path d="M30.5,0.5 L30.5,60.531738" id="Line-4" stroke="#FFFFFF" opacity="0.612488678" stroke-linecap="square" transform="translate(30.500000, 30.500000) rotate(-45.000000) translate(-30.500000, -30.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

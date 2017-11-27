@@ -1,0 +1,32 @@
+
+<svg width="166px" height="166px" viewBox="0 0 166 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#545454" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-167.000000, -461.000000)">
+            <g id="Group-2" transform="translate(167.000000, 461.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="166" height="166"></rect>
+                <text id="minimal" font-family="AmericanTypewriter, American Typewriter" font-size="25" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="15.675" y="80">minimalist</tspan>
+                </text>
+                <text id="toolbar" font-family="AmericanTypewriter-Light, American Typewriter" font-size="22" font-weight="300" fill="#FFFFFF">
+                    <tspan x="46.161" y="109">toolbar</tspan>
+                </text>
+                <path d="M36.5,83.5 L36.5,117.5" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M13.5,58.5 L13.5,92.5" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M121.5,56.5 L121.5,86.5" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M129.5,83.5 L129.5,117.5" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M9.5,83.5 L165.5,83.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M25.5,59.5 L105.5,59.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M31.5,113.5 L138.5,113.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <path d="M26.5,90.5 L132.5,90.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
