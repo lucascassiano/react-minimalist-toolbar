@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="387px" height="137px" viewBox="0 0 387 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#36CEF9" offset="0%"></stop>
+            <stop stop-color="#279DF4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-2" transform="translate(131.000000, 37.000000)">
+                <text id="minimalist" font-family="AmericanTypewriter, American Typewriter" font-size="25" font-weight="normal" fill="#000000">
+                    <tspan x="37.65" y="26">minimalist</tspan>
+                </text>
+                <text id="toolbar" font-family="AmericanTypewriter-Light, American Typewriter" font-size="22" font-weight="300" fill="#000000">
+                    <tspan x="65.161" y="56">toolbar</tspan>
+                </text>
+                <path d="M38,30.5 L38,64.5" id="Line-2" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M6,0.5 L6,39.5" id="Line-2" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M203,4.5 L203,34.5" id="Line-2" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M166,30.5 L166,64.5" id="Line-2" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M0.687898089,30.5 L215.312102,30.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M2.68791946,6.5 L206.312081,6.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M31.6851852,60.5 L178.314815,60.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M24.6869159,37.5 L170.313084,37.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-3" transform="translate(36.000000, 39.000000)">
+                <g id="App-Icon-60-x-60" transform="translate(0.000000, 1.000000)" fill="url(#linearGradient-1)">
+                    <rect id="App-Icon" x="0" y="0" width="60" height="60" rx="13.5"></rect>
+                </g>
+                <circle id="Oval-2" stroke="#FFFFFF" fill-opacity="0.05" fill="#FFFFFF" cx="30" cy="31" r="23"></circle>
+                <path d="M30.5,0.5 L30.5,60.531738" id="Line-4" stroke="#FFFFFF" opacity="0.755321558" stroke-linecap="square"></path>
+                <path d="M60.5,30.5 L0.468261963,30.5" id="Line-4" stroke="#FFFFFF" opacity="0.755321558" stroke-linecap="square"></path>
+                <path d="M51.7132034,9.28679656 L9.26435438,51.7356456" id="Line-4" stroke="#FFFFFF" opacity="0.612488678" stroke-linecap="square"></path>
+                <path d="M30.5,0.5 L30.5,60.531738" id="Line-4" stroke="#FFFFFF" opacity="0.612488678" stroke-linecap="square" transform="translate(30.500000, 30.500000) rotate(-45.000000) translate(-30.500000, -30.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

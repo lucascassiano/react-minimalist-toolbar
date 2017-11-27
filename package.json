@@ -1,6 +1,6 @@
 {
   "name": "react-minimalist-toolbar",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "description": "My awesome React Component!",
   "main": "lib/index.js",
   "author": "lucascassiano",
@@ -49,8 +49,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "publish": "np"
+    "build-storybook": "build-storybook"
   },
   "jest": {
     "moduleFileExtensions": [
