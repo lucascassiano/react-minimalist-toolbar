@@ -9,11 +9,11 @@ var menu = [
     items: [
       {
         text: "New",
-        callback: function () {alert('clicked')}
+        callback: function () { alert('clicked') }
       },
       {
         text: "Open",
-        callback: function () {alert('clicked')}
+        callback: function () { alert('clicked') }
       }
     ]
   },
@@ -22,11 +22,11 @@ var menu = [
     items: [
       {
         text: "Undo",
-        callback: function () {alert('clicked')}
+        callback: function () { alert('clicked') }
       },
       {
         text: "Redo",
-        callback: function () {alert('clicked')}
+        callback: function () { alert('clicked') }
       }
     ]
   }
@@ -34,8 +34,11 @@ var menu = [
 
 storiesOf('Toolbar', module)
   .add('With logo', () => (
-    <Toolbar menu={menu} logo={logo} brand="minimalist toolbar"></Toolbar>    
+    <Toolbar menu={menu} logo={logo} brand="minimalist toolbar"></Toolbar>
   ))
   .add('without logo', () => (
-    <Toolbar menu={menu}></Toolbar> 
-  ));
+    <Toolbar menu={menu}></Toolbar>
+  ))
+  .add('with link', () => (
+    <Toolbar menu={menu} logo={logo} url={"http://github.com/lucascassiano"} brand="minimalist toolbar"></Toolbar>
+  ));;

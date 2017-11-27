@@ -5,7 +5,7 @@
     --text-hover: #fff;
   }
 
-.toolbar{
+.minimalist-toolbar{
     overflow-y: visible;
     position: absolute;
     top:0px;
@@ -19,7 +19,7 @@
     font-weight: 300;
 }
 
-ul {
+.minimalist-toolbar> ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,16 +29,16 @@ ul {
     white-space: nowrap;
 }
 
-li {
+.minimalist-toolbar> ul> li {
     float: left;
     color: var(--text-color);
 }
 
-li:hover{
+.minimalist-toolbar> ul> li:hover{
     color:var(--text-hover)
 }
 
-li a{
+.minimalist-toolbar> ul> li a{
     display: block;
     color: var(--text-color);
     text-align: center;
@@ -47,58 +47,61 @@ li a{
     text-align: left;
 }
 
-li a:hover{
+.minimalist-toolbar> ul> li a:hover{
     color:var(--text-hover);
     text-decoration: none;
     font-weight: 200;
 }
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.minimalist-toolbar> ul> li a:hover {
     background-color: #111;
     cursor:default;
     clear:both 
 }
 
-ul .brand{
+.minimalist-toolbar-brand{
     font-family: "HelveticaNeue", "Helvetica Neue";
     color:var(--text-hover);
     font-weight: 100;
     background: transparent;
 }
 
-ul .brand:hover{
+.minimalist-toolbar-brand:hover{
     background: transparent;
     font-weight: 400;  
 }
-ul .brand a{
+.minimalist-toolbar> ul> li .brand a{
     padding-left: 5px;
 }
 
-ul .brand a:hover{
-/*    background: transparent;*/
+.minimalist-toolbar> ul> li .brand a:hover{
+  background: transparent;
 
 }
 
-ul .brand .logo{
+.minimalist-toolbar-brand .logo{
     width: 18px;
     margin-right: 5px;
     margin-left:10px;
+    padding:auto;
+    vertical-align: middle;
+    height: 100%;
 }
 
 /*dropdown*/
-.dropdown {
+.minimalist-toolbar .dropdown {
     position: relative;
     display: inline-block;
     color: var(--text-color);
     overflow: visible;
 }
 
-.dropdown:hover,.dropdown-content:hover{
+.minimalist-toolbar .dropdown:hover, .minimalist-toolbar .dropdown-content:hover{
     background: var(--main-color);
     color: var(--text-hover);
 }
 
-.dropdown-content {
+.minimalist-toolbar .dropdown-content {
     display: none;
     position: absolute;
     background-color: #000;
@@ -108,13 +111,13 @@ ul .brand .logo{
     z-index: 2;
 }
 
-.dropdown:hover .dropdown-content {
+.minimalist-toolbar .dropdown:hover .dropdown-content {
     display:inline-block;
     white-space: nowrap;
     color: var(--text-color);
 }
 
-.dropdown-content a:hover{
+.minimalist-toolbar .dropdown-content a:hover{
     color:var(--text-hover);
 }
 

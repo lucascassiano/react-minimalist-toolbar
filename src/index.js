@@ -68,7 +68,7 @@ class Toolbar extends Component {
     );
     }
 
-    const { brand } = this.props;
+    const { brand, url } = this.props;
     var logo;
     if (this.props.logo) {
       logo = (
@@ -79,9 +79,9 @@ class Toolbar extends Component {
     
 
     return (
-      <div className="toolbar">
+      <div className="minimalist-toolbar">
         <ul>
-          <li className="brand"><a>{logo}{brand}</a></li>
+          <li className="minimalist-toolbar-brand"><a href={url}>{logo}{brand}</a></li>
           {items}
         </ul>
       </div>

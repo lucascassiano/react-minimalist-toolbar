@@ -80,13 +80,21 @@ render() {
 The UI components can be customized by overwriting css classes:(see lib/index.css)
 
 ```css
-    .toolbar{
+
+    :root {
+        --main-color: #000;
+        --main-color-high:#222;
+        --text-color:#cccccc;
+        --text-hover: #fff;
+    }
+
+    .minimalist-toolbar{
 
     }
-    .dropdown{
+    .minimalist-toolbar .dropdown{
 
     }
-    .dropdown-content{
+    .minimalist-toolbar .dropdown-content{
 
     }
 ```
